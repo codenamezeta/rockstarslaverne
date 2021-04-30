@@ -136,7 +136,7 @@ class NewFeatures extends Component {
                     </p>
                     <img
                       className='instrument-photo'
-                      src={require('../../images/zeta/guitar-04.jpg')}
+                      src={require('../images/zeta/guitar-04.jpg')}
                       alt='new'
                     />
                   </div>
@@ -158,7 +158,7 @@ class NewFeatures extends Component {
                     </p>
                     <img
                       className='instrument-photo'
-                      src={require('../../images/zeta/bass-02.jpg')}
+                      src={require('../images/zeta/bass-02.jpg')}
                       alt='new'
                     />
                   </div>
@@ -183,7 +183,7 @@ class NewFeatures extends Component {
                     </p>
                     <img
                       className='instrument-photo'
-                      src={require('../../images/zeta/drums-04.jpg')}
+                      src={require('../images/zeta/drums-04.jpg')}
                       alt='new'
                     />
                   </div>
@@ -207,7 +207,7 @@ class NewFeatures extends Component {
                     </p>
                     <img
                       className='instrument-photo'
-                      src={require('../../images/zeta/keys-01.jpg')}
+                      src={require('../images/zeta/keys-01.jpg')}
                       alt='new'
                     />
                   </div>
@@ -232,7 +232,7 @@ class NewFeatures extends Component {
                     </p>
                     <img
                       className='instrument-photo'
-                      src={require('../../images/zeta/vox-05.jpg')}
+                      src={require('../images/zeta/vox-05.jpg')}
                       alt='new'
                     />
                   </div>
@@ -253,7 +253,7 @@ class NewFeatures extends Component {
                     </p>
                     <img
                       className='instrument-photo'
-                      src={require('../../images/zeta/ukulele-02.jpg')}
+                      src={require('../images/zeta/ukulele-02.jpg')}
                       alt='new'
                     />
                   </div>
@@ -274,7 +274,7 @@ class NewFeatures extends Component {
                     </p>
                     <img
                       className='instrument-photo'
-                      src={require('../../images/zeta/audio-01.jpg')}
+                      src={require('../images/zeta/audio-01.jpg')}
                       alt='new'
                     />
                   </div>
@@ -287,7 +287,7 @@ class NewFeatures extends Component {
                     </p>
                     <img
                       className='instrument-photo'
-                      src={require('../../images/zeta/songwriting-02.jpg')}
+                      src={require('../images/zeta/songwriting-02.jpg')}
                       alt='new'
                     />
                   </div>

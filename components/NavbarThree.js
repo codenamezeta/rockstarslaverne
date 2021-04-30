@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import Link from 'next/link'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import SeoSection from './SeoSection'
-import logo from '../../images/zeta/logo.svg'
+import logo from '../images/zeta/logo.svg'
 
 class NavbarThree extends Component {
   state = {
@@ -75,7 +75,7 @@ class NavbarThree extends Component {
             <Link href='/'>
               <a className='navbar-brand'>
                 <img
-                  src={require('../../images/zeta/logo.png')}
+                  src={require('../images/zeta/logo.png')}
                   style={{ height: '80px' }}
                   alt='logo'
                 />

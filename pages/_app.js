@@ -7,8 +7,8 @@ import '../assets/css/responsive.css'
 import { Preloader, Placeholder } from 'react-preloading-screen'
 import App from 'next/app'
 import { DefaultSeo } from 'next-seo'
-import Loader from '../components/Shared/Loader'
-import GoTop from '../components/Shared/GoTop'
+import Loader from '../components/Loader'
+import GoTop from '../components/GoTop'
 
 export default class MyApp extends App {
   render() {

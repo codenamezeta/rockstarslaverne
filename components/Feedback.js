@@ -53,7 +53,7 @@ class Feedback extends Component {
                 <div className='col-lg-12 col-md-12'>
                   <div className='feedback-item'>
                     <img
-                      src={require('../../images/zeta/Kaelyn.png')}
+                      src={require('../images/zeta/Kaelyn.png')}
                       alt='client'
                     />
                     <p>
@@ -79,7 +79,7 @@ class Feedback extends Component {
                 <div className='col-lg-12 col-md-12'>
                   <div className='feedback-item'>
                     <img
-                      src={require('../../images/zeta/virgina.jpg')}
+                      src={require('../images/zeta/virgina.jpg')}
                       alt='client'
                     />
                     <p>
@@ -100,7 +100,7 @@ class Feedback extends Component {
                 <div className='col-lg-12 col-md-12'>
                   <div className='feedback-item'>
                     <img
-                      src={require('../../images/zeta/christine.jpg')}
+                      src={require('../images/zeta/christine.jpg')}
                       alt='client'
                     />
                     <p>
@@ -125,7 +125,7 @@ class Feedback extends Component {
                 <div className='col-lg-12 col-md-12'>
                   <div className='feedback-item'>
                     <img
-                      src={require('../../images/zeta/krista.jpg')}
+                      src={require('../images/zeta/krista.jpg')}
                       alt='client'
                     />
                     <p>
@@ -151,7 +151,7 @@ class Feedback extends Component {
                 <div className='col-lg-12 col-md-12'>
                   <div className='feedback-item'>
                     <img
-                      src={require('../../images/zeta/gina.jpg')}
+                      src={require('../images/zeta/gina.jpg')}
                       alt='client'
                     />
                     <p>
@@ -177,7 +177,7 @@ class Feedback extends Component {
                 <div className='col-lg-12 col-md-12'>
                   <div className='feedback-item'>
                     <img
-                      src={require('../../images/zeta/billie.jpg')}
+                      src={require('../images/zeta/billie.jpg')}
                       alt='client'
                     />
                     <p>Hands down the best place for music lessons!!!</p>

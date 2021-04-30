@@ -53,7 +53,7 @@ class Services extends Component {
               <div className='col-lg-6 col-md-12'>
                 <div className='services-image'>
                   <img
-                    src={require('../../images/zeta/guitar-kid-3-2.jpg')}
+                    src={require('../images/zeta/guitar-kid-3-2.jpg')}
                     alt='A real Rockstar'
                   />
                 </div>

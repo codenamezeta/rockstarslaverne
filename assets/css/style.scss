@@ -64,14 +64,6 @@ body {
   font-weight: 900;
   font-size: $font-size;
   background-color: $black-color;
-
-  // overflow: scroll;
-}
-
-div#__next {
-  scroll-padding: 50px 0 0 0;
-  scroll-behavior: smooth;
-  overflow: scroll;
 }
 
 a {
@@ -7156,7 +7148,7 @@ Go Top CSS
   right: 15px;
   font-size: 25px;
   color: $white-color;
-  background-color: $white-color;
+  background-color: $main-color;
   z-index: 4;
   // display: none;
   width: 45px;
@@ -7167,8 +7159,8 @@ Go Top CSS
   transition: $transition;
 
   &:hover {
-    color: $white-color;
-    background: $main-color;
+    color: $black-color;
+    background: $white-color;
   }
 }
 

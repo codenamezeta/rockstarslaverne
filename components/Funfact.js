@@ -138,14 +138,14 @@ class Funfact extends Component {
           <div className='contact-cta-box'>
             <h3>Have any question about us?</h3>
             <p>Don't hesitate to contact us.</p>
-            <Link href='#'>
+            <Link href='#contact'>
               <a className='btn btn-primary'>Contact Us</a>
             </Link>
           </div>
         </div>
 
         <div className='map-bg'>
-          <img src={require('../../images/zeta/stage-01.jpg')} alt='map' />
+          <img src={require('../images/zeta/stage-01.jpg')} alt='map' />
         </div>
       </section>
     )

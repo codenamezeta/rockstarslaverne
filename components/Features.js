@@ -81,7 +81,7 @@ class Features extends Component {
             <div className='col-lg-6 col-md-12'>
               <div className='features-image'>
                 <img
-                  src={require('../../images/zeta/mms-graphic-01.png')}
+                  src={require('../images/zeta/mms-graphic-01.png')}
                   className='wow fadeIn'
                   data-wow-delay='0.6s'
                   alt='main-pic'

@@ -1,6 +1,6 @@
 import React from 'react'
-import NavbarThree from '../components/Layouts/NavbarThree'
-import Footer from '../components/Layouts/Footer'
+import NavbarThree from '../components/NavbarThree'
+import Footer from '../components/Footer'
 
 class Error extends React.Component {
   static getInitialProps({ res, err }) {

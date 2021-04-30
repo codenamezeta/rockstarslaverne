@@ -40,10 +40,10 @@ class Subscribe extends Component {
         </div>
 
         <div className='rocket'>
-          <img src={require('../../images/zeta/flying-v-2.png')} alt='guitar' />
+          <img src={require('../images/zeta/flying-v-2.png')} alt='guitar' />
         </div>
         <div className='map'>
-          <img src={require('../../images/map.png')} alt='map' />
+          <img src={require('../images/map.png')} alt='map' />
         </div>
       </section>
     )

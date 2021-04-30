@@ -13,7 +13,7 @@ class Footer extends Component {
                   <Link href='/'>
                     <a>
                       <img
-                        src={require('../../images/zeta/logo.png')}
+                        src={require('../images/zeta/logo.png')}
                         style={{ height: '60px' }}
                         alt='logo'
                       />
@@ -45,9 +45,7 @@ class Footer extends Component {
 
                 <ul className='list'>
                   <li>
-                    <a href='https://rockstarsoftomorrow.com'>
-                      Corporate Website
-                    </a>
+                    <a href='https://rockstarsoftomorrow.com'>RoT Main Site</a>
                   </li>
                   <li>
                     <a href='https://rockstarsoftomorrow.com/locations'>
