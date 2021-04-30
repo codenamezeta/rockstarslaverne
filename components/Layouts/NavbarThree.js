@@ -72,7 +72,7 @@ class NavbarThree extends Component {
           className='navbar navbar-expand-lg navbar-style-one navbar-dark'
         >
           <div className='container'>
-            <Link href='/saas'>
+            <Link href='/'>
               <a className='navbar-brand'>
                 <img
                   src={require('../../images/zeta/logo.png')}
@@ -111,7 +111,7 @@ class NavbarThree extends Component {
                 <li className='nav-item'>
                   <AnchorLink
                     onClick={this.toggleNavbar}
-                    offset={() => 0}
+                    offset={() => 50}
                     className='nav-link'
                     href='#programs'
                   >
@@ -121,7 +121,7 @@ class NavbarThree extends Component {
                 <li className='nav-item'>
                   <AnchorLink
                     onClick={this.toggleNavbar}
-                    offset={() => 0}
+                    offset={() => 50}
                     className='nav-link'
                     href='#features'
                   >
@@ -131,7 +131,7 @@ class NavbarThree extends Component {
                 <li className='nav-item'>
                   <AnchorLink
                     onClick={this.toggleNavbar}
-                    offset={() => -10}
+                    offset={() => 150}
                     className='nav-link'
                     href='#testimonials'
                   >
@@ -141,7 +141,7 @@ class NavbarThree extends Component {
                 <li className='nav-item'>
                   <AnchorLink
                     onClick={this.toggleNavbar}
-                    offset={() => -10}
+                    offset={() => 50}
                     className='nav-link'
                     href='#pricing'
                   >
@@ -161,7 +161,7 @@ class NavbarThree extends Component {
                 <li className='nav-item'>
                   <AnchorLink
                     onClick={this.toggleNavbar}
-                    offset={() => -10}
+                    offset={() => 50}
                     className='nav-link'
                     href='#contact'
                   >
