@@ -36,11 +36,12 @@ class Feedback extends Component {
       <section id='testimonials' className='feedback-area-two pt-0 ptb-100'>
         <div className='container'>
           <div className='saas-section-title'>
-            <h2>What Our Clients Say About Us</h2>
+            <h2>What Our Fans Say About Us</h2>
             <div className='bar'></div>
             <p>
-              Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-              maecenas accumsan lacus vel facilisis.
+              We're extremely proud that so many students, parents, friends, and
+              colleagues think of Rockstars La Verne as their second home. We
+              hope you will too.
             </p>
           </div>
 
