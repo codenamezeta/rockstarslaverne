@@ -130,10 +130,10 @@ class Services extends Component {
                     </div>
                     <h3>JamCore</h3>
                     <p>
-                      The stage is an extention of the classroom and it's where
+                      The stage is an extension of the classroom, and it's where
                       all those powerful ideas you learned in your lessons get
-                      applied, tested, and proven. This jam-session style class
-                      is open to all ages and skill levels and each session
+                      applied, tested, and proven. This jam-session-style class
+                      is open to all ages and skill levels, and each session
                       concludes with a live concert.
                     </p>
                   </div>
@@ -147,10 +147,10 @@ class Services extends Component {
                     <h3>BandCore</h3>
                     <p>
                       Amp up your learning skills in this super fun, fast-paced
-                      class. Instructor approved students will learn all the
-                      in-and-outs of playing in a real band. They will choose
-                      their own setlists, rehearse, record, and then perform in
-                      front of a live audience at two concerts.
+                      class. Students will learn all the ins and outs of playing
+                      in a real band, like choosing their setlists, rehearsing,
+                      and recording. In addition, BandCore bands get to perform
+                      at two concerts in front of a live audience.
                     </p>
                   </div>
                 </div>
@@ -162,9 +162,9 @@ class Services extends Component {
                     </div>
                     <h3>Rockstar Pro</h3>
                     <p>
-                      Are you ready to become a part of a professional, working
-                      band? This custom open-ended program allows students to
-                      choose their band mates, coach and set lists. Band members
+                      Become a part of a professional, working band! This fully
+                      customizable and open-ended program allows students to
+                      choose their bandmates, coach, and setlists. Band members
                       develop performance skills, write original songs, and
                       headline at exclusive concerts!
                     </p>

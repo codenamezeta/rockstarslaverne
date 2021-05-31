@@ -9,6 +9,10 @@ class Contact extends Component {
             <h2>Contact Us</h2>
             <div className='bar'></div>
             <p>Get in touch with Rockstars Of Tomorrow - La Verne.</p>
+            <script
+              type='text/javascript'
+              src='https://app.mymusicstaff.com/Widget/v2/Login.ashx'
+            ></script>
           </div>
 
           <div className='contact-form'>
