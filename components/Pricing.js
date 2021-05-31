@@ -62,16 +62,17 @@ class Pricing extends Component {
           {/* Second colum for pricing */}
           <div className='price-category'>
             <h3>Performance Classes</h3>
+            <p>$100 off ANY first band class for ALL students</p>
             <div className='price-item'>
               <h4>JamCore</h4>
               <p>
-                This beg. performance class is open to all ages and all skill
-                levels. Includes one concert. First session FREE to all private
-                lesson students. (2 mo. course.)
+                This intermediate performance class is open to all ages and all
+                skill levels. Includes one concert. First session FREE to all
+                private lesson students. (2 mo. course.)
               </p>
               <div className='price-line'>
                 <span className='price-time'>60 minutes/week</span>
-                <span className='price'>$49/month**</span>
+                <span className='price'>$69/month**</span>
               </div>
               <hr />
             </div>
@@ -80,7 +81,7 @@ class Pricing extends Component {
               <h4>BandCore</h4>
               <p>
                 Play in a real band, record a song, and rock up to two shows.
-                int.-adv. skill levels, ages 10+. (3 mo. course.)
+                Advanced skill levels, ages 10+. (3 mo. course.)
               </p>
               <div className='price-line'>
                 <span className='price-time'>60 minutes/week</span>
@@ -93,11 +94,11 @@ class Pricing extends Component {
               <h4>Rockstar Pro</h4>
               <p>
                 Fully customizable band creation and development program.
-                Includes private band coach. Adv. skill levels.
+                Includes private band coach. Any skill level.
               </p>
               <div className='price-line'>
-                <span className='price-time'>60 minutes/week</span>
-                <span className='price'>$125/student/month</span>
+                <span className='price-time'>Fully customizable</span>
+                <span className='price'>Prices & times vary</span>
               </div>
               <hr />
             </div>

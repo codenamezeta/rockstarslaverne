@@ -19,10 +19,6 @@ class MyDocument extends Document {
         </Head>
         <body>
           <Main />
-          <script
-            type='text/javascript'
-            src='https://app.mymusicstaff.com/Widget/v2/Login.ashx'
-          ></script>
           <NextScript />
         </body>
       </Html>

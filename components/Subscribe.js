@@ -15,7 +15,7 @@ class Subscribe extends Component {
             <form
               className='newsletter-form'
               data-toggle='validator'
-              action='https://formspree.io/f/mnqlnyvo'
+              action='https://formspree.io/f/mbjqoazl'
               method='POST'
             >
               <div className='row align-items-center'>

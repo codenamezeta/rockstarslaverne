@@ -9,10 +9,6 @@ class Contact extends Component {
             <h2>Contact Us</h2>
             <div className='bar'></div>
             <p>Get in touch with Rockstars Of Tomorrow - La Verne.</p>
-            <script
-              type='text/javascript'
-              src='https://app.mymusicstaff.com/Widget/v2/Login.ashx'
-            ></script>
           </div>
 
           <div className='contact-form'>
@@ -34,7 +30,7 @@ class Contact extends Component {
               <div className='col-lg-6 col-md-12'>
                 <form
                   id='contactForm'
-                  action='https://formspree.io/f/mvodgnrr'
+                  action='https://formspree.io/f/xrgrqayg'
                   method='POST'
                 >
                   <div className='row'>

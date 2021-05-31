@@ -168,6 +168,16 @@ class NavbarThree extends Component {
                     Contact
                   </AnchorLink>
                 </li>
+
+                <li className='nav-item'>
+                  <a
+                    href='https://app.mymusicstaff.com'
+                    target='_blank'
+                    rel='noopener noreferer'
+                  >
+                    <button>Login</button>
+                  </a>
+                </li>
               </ul>
 
               {/* <ul className='others-option'>

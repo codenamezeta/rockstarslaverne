@@ -45,25 +45,47 @@ class Footer extends Component {
 
                 <ul className='list'>
                   <li>
-                    <a href='https://rockstarsoftomorrow.com'>RoT Main Site</a>
+                    <a
+                      href='https://rockstarsoftomorrow.com'
+                      target='_blank'
+                      rel='noreferrer noopener'
+                    >
+                      RoT Main Site
+                    </a>
                   </li>
                   <li>
-                    <a href='https://rockstarsoftomorrow.com/locations'>
+                    <a
+                      href='https://rockstarsoftomorrow.com/locations'
+                      target='_blank'
+                      rel='noreferrer noopener'
+                    >
                       Locations
                     </a>
                   </li>
                   <li>
-                    <a href='https://rockstarsoftomorrow.com/locations/la-verne-ca'>
+                    <a
+                      href='https://rockstarsoftomorrow.com/locations/la-verne-ca'
+                      target='_blank'
+                      rel='noreferrer noopener'
+                    >
                       Contact Us
                     </a>
                   </li>
                   <li>
-                    <a href='https://rockstars-of-tomorrow.myshopify.com/'>
+                    <a
+                      href='https://rockstars-of-tomorrow.myshopify.com/'
+                      target='_blank'
+                      rel='noreferrer noopener'
+                    >
                       Store
                     </a>
                   </li>
                   <li>
-                    <a href='https://rockstarsoftomorrow.com/franchise'>
+                    <a
+                      href='https://rockstarsoftomorrow.com/franchise'
+                      target='_blank'
+                      rel='noreferrer noopener'
+                    >
                       Franchising
                     </a>
                   </li>
@@ -77,12 +99,20 @@ class Footer extends Component {
 
                 <ul className='list'>
                   <li>
-                    <a href='https://app.mymusicstaff.com'>
+                    <a
+                      href='https://app.mymusicstaff.com'
+                      target='_blank'
+                      rel='noreferrer noopener'
+                    >
                       Client/Student Portal
                     </a>
                   </li>
                   <li>
-                    <a href='https://app.mymusicstaff.com/Student/v2/en/online-resources'>
+                    <a
+                      href='https://app.mymusicstaff.com/Student/v2/en/online-resources'
+                      target='_blank'
+                      rel='noreferrer noopener'
+                    >
                       Online Resources
                     </a>
                   </li>
@@ -98,7 +128,7 @@ class Footer extends Component {
                     </Link>
                   </li>
                   <li>
-                    <Link href='#'>
+                    <Link href='#home'>
                       <a>Enrollment</a>
                     </Link>
                   </li>
@@ -112,21 +142,49 @@ class Footer extends Component {
 
                 <ul className='list'>
                   <li>
-                    <a href='https://usa.yamaha.com/products/musical_instruments/index.html'>
+                    <a
+                      href='https://usa.yamaha.com/products/musical_instruments/index.html'
+                      target='_blank'
+                      rel='noreferrer noopener'
+                    >
                       Yamaha
                     </a>
                   </li>
                   <li>
-                    <a href='https://on-stage.com/'>On Stage</a>
+                    <a
+                      href='https://on-stage.com/'
+                      target='_blank'
+                      rel='noreferrer noopener'
+                    >
+                      On Stage
+                    </a>
                   </li>
                   <li>
-                    <a href='https://sabian.com/'>Sabian</a>
+                    <a
+                      href='https://sabian.com/'
+                      target='_blank'
+                      rel='noreferrer noopener'
+                    >
+                      Sabian
+                    </a>
                   </li>
                   <li>
-                    <a href='https://www.aquariandrumheads.com/'>Aquarian</a>
+                    <a
+                      href='https://www.aquariandrumheads.com/'
+                      target='_blank'
+                      rel='noreferrer noopener'
+                    >
+                      Aquarian
+                    </a>
                   </li>
                   <li>
-                    <a href='http://www.skbcases.com/'>SKB Cases</a>
+                    <a
+                      href='http://www.skbcases.com/'
+                      target='_blank'
+                      rel='noreferrer noopener'
+                    >
+                      SKB Cases
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -143,19 +201,34 @@ class Footer extends Component {
                   {new Date().getFullYear() + ' '}
                   <a href='/'> Rockstars Of Tomorrow – La Verne.</a>
                   <br />
-                  Design by <a href='https://a2zeta.com'>_codenamezeta</a>
+                  Design by{' '}
+                  <a
+                    href='https://a2zeta.com'
+                    target='_blank'
+                    rel='noreferrer noopener'
+                  >
+                    _codenamezeta
+                  </a>
                 </p>
               </div>
 
               <div className='col-lg-5 col-md-5'>
                 <ul>
                   <li>
-                    <a href='https://www.instagram.com/rockstarslaverne'>
+                    <a
+                      href='https://www.instagram.com/rockstarslaverne'
+                      target='_blank'
+                      rel='noreferrer noopener'
+                    >
                       <i className='fab fa-instagram'></i>
                     </a>
                   </li>
                   <li>
-                    <a href='https://www.facebook.com/rockstarslaverne/'>
+                    <a
+                      href='https://www.facebook.com/rockstarslaverne/'
+                      target='_blank'
+                      rel='noreferrer noopener'
+                    >
                       <i className='fab fa-facebook-f'></i>
                     </a>
                   </li>
