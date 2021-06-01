@@ -174,8 +174,9 @@ class NavbarThree extends Component {
                     href='https://app.mymusicstaff.com'
                     target='_blank'
                     rel='noopener noreferer'
+                    className='btn btn-primary nav-btn'
                   >
-                    <button>Login</button>
+                    Login
                   </a>
                 </li>
               </ul>

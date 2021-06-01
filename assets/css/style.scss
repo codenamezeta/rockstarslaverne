@@ -82,29 +82,7 @@ a {
     display: inline;
   }
 }
-button {
-  position: absolute;
-  right: -1px;
-  height: 100%;
-  background: $main-color;
-  box-shadow: unset;
-  top: 0;
-  color: $white-color;
-  border: none;
-  font-size: 14px;
-  width: 130px;
-  border-radius: 0;
-  cursor: pointer;
-  text-transform: uppercase;
-  font-weight: 500;
-  transition: $transition;
-  outline: 0 !important;
-  border: none;
-
-  &:hover,
-  &:focus {
-    background: $sub-main-color;
-  }
+.nav-button {
 }
 .d-table {
   width: 100%;
@@ -235,6 +213,8 @@ p {
       box-shadow: unset;
     }
   }
+}
+.nav-btn {
 }
 /*section-title*/
 .section-title {
@@ -670,6 +650,7 @@ Navbar CSS
   }
   &.navbar-dark {
     .navbar-nav {
+      align-items: center;
       .nav-item {
         padding: {
           left: 9px;
