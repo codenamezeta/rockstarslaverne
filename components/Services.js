@@ -125,9 +125,9 @@ class Services extends Component {
               >
                 <div className='col-lg-12 col-md-12'>
                   <div className='single-services'>
-                    <div className='icon'>
+                    {/* <div className='icon'>
                       <i className='fas fa-solar-panel'></i>
-                    </div>
+                    </div> */}
                     <h3>JamCore</h3>
                     <p>
                       The stage is an extension of the classroom, and it's where
@@ -141,9 +141,9 @@ class Services extends Component {
 
                 <div className='col-lg-12 col-md-12'>
                   <div className='single-services'>
-                    <div className='icon bg-cdf1d8'>
+                    {/* <div className='icon bg-cdf1d8'>
                       <i className='fas fa-mobile-alt'></i>
-                    </div>
+                    </div> */}
                     <h3>BandCore</h3>
                     <p>
                       Amp up your learning skills in this super fun, fast-paced
@@ -157,9 +157,9 @@ class Services extends Component {
 
                 <div className='col-lg-12 col-md-12'>
                   <div className='single-services'>
-                    <div className='icon bg-f78acb'>
+                    {/* <div className='icon bg-f78acb'>
                       <i className='fas fa-th'></i>
-                    </div>
+                    </div> */}
                     <h3>Rockstar Pro</h3>
                     <p>
                       Become a part of a professional, working band! This fully
@@ -167,6 +167,56 @@ class Services extends Component {
                       choose their bandmates, coach, and setlists. Band members
                       develop performance skills, write original songs, and
                       headline at exclusive concerts!
+                    </p>
+                  </div>
+                </div>
+
+                <div className='col-lg-12 col-md-12'>
+                  <div className='single-services'>
+                    {/* <div className='icon bg-f78acb'>
+                      <i className='fas fa-th'></i>
+                    </div> */}
+                    <h3>Weekly Open Mic</h3>
+                    <p>
+                      Open to all students, parents and even non-students to
+                      perform anything they want. Students can work with their
+                      private instructors to help them prepare for their
+                      performance either solo or with other students or with the
+                      instructors. Anything goes at Open Mic.
+                    </p>
+                  </div>
+                </div>
+
+                <div className='col-lg-12 col-md-12'>
+                  <div className='single-services'>
+                    {/* <div className='icon bg-f78acb'>
+                      <i className='fas fa-th'></i>
+                    </div> */}
+                    <h3>Daily Jam Sessions</h3>
+                    <p>
+                      Students perform whatever they want anytime they want on
+                      our performance patio to the audience of the thousands of
+                      cars that pass by our studio on Foothill Blvd every day.
+                      Students can work with their private instructors to help
+                      them perform whatever they’re working on in their lessons,
+                      either solo or with other students or with the
+                      instructors.
+                    </p>
+                  </div>
+                </div>
+
+                <div className='col-lg-12 col-md-12'>
+                  <div className='single-services'>
+                    {/* <div className='icon bg-f78acb'>
+                      <i className='fas fa-th'></i>
+                    </div> */}
+                    <h3>RockShop</h3>
+                    <p>
+                      Beginner students meet once a month and play up to 3
+                      pre-chosen songs as a band. Designed to teach the
+                      fundamentals of playing a song from beginning to end with
+                      other players and gets students ready to move up to the
+                      intermediate level band class (JamCore).
                     </p>
                   </div>
                 </div>

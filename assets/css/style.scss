@@ -76,7 +76,7 @@ a {
   &:hover,
   &:focus {
     text-decoration: none;
-    color: $black-color;
+    color: $main-color;
   }
   &.inline-a {
     display: inline;
@@ -492,7 +492,7 @@ p {
 
 //! My custom CSS that I'm too lazy to scatter about the rest of this file so here it is...
 .pricing-area {
-  padding-bottom: 1200px;
+  padding-bottom: 1300px;
   background-image: url('../../images/zeta/guitar-girl.jpg');
   background-position: center bottom; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
@@ -517,7 +517,10 @@ p {
   }
   .price-item {
     h4 {
-      margin-top: 2em;
+      margin-top: 1.5em;
+    }
+    p {
+      font-size: 0.9em;
     }
     hr {
       flex-shrink: 1;
@@ -531,7 +534,7 @@ p {
     }
     .price-line {
       display: flex;
-      font-size: 0.75em;
+      font-size: 0.85em;
       // flex-direction: column;
       .price-time {
         // flex-grow: 1;
@@ -546,6 +549,11 @@ p {
       }
     }
   }
+}
+
+.hover-tan:hover {
+  background-color: $sub-main-color;
+  color: white;
 }
 // .pricing-area {
 //   background-image: url('../../images/zeta/guitar-kid.jpg');
@@ -6792,7 +6800,7 @@ Footer CSS
           }
           &:hover,
           &:focus {
-            color: $main-color;
+            color: $sub-main-color;
             padding-left: 15px;
 
             &::before {

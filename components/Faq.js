@@ -13,7 +13,7 @@ import 'react-accessible-accordion/dist/fancy-example.css'
 class Faq extends Component {
   render() {
     return (
-      <section className='faq-area ptb-100'>
+      <section className='faq-area ptb-100' id='faqs'>
         <div className='container'>
           <div className='saas-section-title'>
             <h2>Frequently Asked Questions</h2>

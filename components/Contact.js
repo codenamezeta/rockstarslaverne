@@ -78,7 +78,10 @@ class Contact extends Component {
                     </div>
 
                     <div className='col-lg-12 col-md-12'>
-                      <button type='submit' className='btn btn-primary'>
+                      <button
+                        type='submit'
+                        className='btn btn-primary hover-tan'
+                      >
                         Send Message
                       </button>
                       <div

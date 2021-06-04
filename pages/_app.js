@@ -2,7 +2,7 @@ import '../assets/css/bootstrap.min.css'
 import '../assets/css/animate.min.css'
 import '../assets/css/fontawesome.min.css'
 import '../assets/css/style.scss'
-import '../assets/css/responsive.css'
+import '../assets/css/responsive.scss'
 
 import { Preloader, Placeholder } from 'react-preloading-screen'
 import App from 'next/app'
