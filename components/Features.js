@@ -22,7 +22,7 @@ class Features extends Component {
             <div className='bar'></div>
             <p>
               Rockstars Of Tomorrow La Verne is proud to work with{' '}
-              <a className='inline-a' href='https://www.mymusicstaff.com/'>
+              <a className='inline-a' href='https://www.mymusicstaff.com/' rel='noopener noreferer' target='_blank'>
                 My Music Staff
               </a>
               , the #1 music studio software. Easily &amp; securely manage

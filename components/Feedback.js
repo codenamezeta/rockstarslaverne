@@ -70,7 +70,8 @@ class Feedback extends Component {
 
                     <div className='client-info'>
                       <h3>Kaelyn B.</h3>
-                      <span>Google</span>
+                      <span><a href="https://www.google.com/search?q=rockstars+of+tomorrow+la+verne&oq=rockstars+of+tomorrow+la+verne&aqs=chrome..69i57j69i60j69i61j69i60.4830j0j4&sourceid=chrome&ie=UTF-8#lrd=0x80c32f7d4b2bed15:0xe9feabccc14ce1f,1,,," rel='noopener noreferer' target='_blank'>Google</a></span>
+                      
                     </div>
 
                     <i className='fas fa-quote-left'></i>
@@ -91,7 +92,7 @@ class Feedback extends Component {
 
                     <div className='client-info'>
                       <h3>Virginia A.</h3>
-                      <span>Facebook</span>
+                      <span><a href="https://www.facebook.com/rockstarslaverne/reviews/" rel='noopener noreferer' target='_blank'>Facebook</a></span>
                     </div>
 
                     <i className='fas fa-quote-left'></i>
@@ -116,7 +117,7 @@ class Feedback extends Component {
 
                     <div className='client-info'>
                       <h3>Christine W.</h3>
-                      <span>Facebook</span>
+                      <span><a href="https://www.facebook.com/rockstarslaverne/reviews/" rel='noopener noreferer' target='_blank'>Facebook</a></span>
                     </div>
 
                     <i className='fas fa-quote-left'></i>
@@ -142,7 +143,7 @@ class Feedback extends Component {
 
                     <div className='client-info'>
                       <h3>Krista C.</h3>
-                      <span>Yelp</span>
+                      <span><a href='https://www.yelp.com/biz/rockstars-of-tomorrow-la-verne' rel='noopener noreferer' target='_blank'>Yelp</a></span>
                     </div>
 
                     <i className='fas fa-quote-left'></i>
@@ -168,7 +169,7 @@ class Feedback extends Component {
 
                     <div className='client-info'>
                       <h3>Gina M.</h3>
-                      <span>Facebook</span>
+                      <span><a href="https://www.facebook.com/rockstarslaverne/reviews/" rel='noopener noreferer' target='_blank'>Facebook</a></span>
                     </div>
 
                     <i className='fas fa-quote-left'></i>
@@ -185,7 +186,7 @@ class Feedback extends Component {
 
                     <div className='client-info'>
                       <h3>Billie S.</h3>
-                      <span>Facebook</span>
+                      <span><a href="https://www.facebook.com/rockstarslaverne/reviews/" rel='noopener noreferer' target='_blank'>Facebook</a></span>
                     </div>
 
                     <i className='fas fa-quote-left'></i>

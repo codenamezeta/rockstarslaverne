@@ -15,22 +15,6 @@ class Pricing extends Component {
             <h3>Standard Lessons</h3>
 
             <div className='price-item'>
-              <h4>Rock Shop</h4>
-              <p>
-                Beginner-level students meet once a month and play up to three
-                pre-chosen songs as a band. RockShop teaches young musicians the
-                fundamentals of playing songs from beginning to end with other
-                players and gets students ready to move up to the
-                intermediate-level band class (JamCore).
-              </p>
-              <div className='price-line'>
-                <span className='price-time'>30–120 minutes/class</span>
-                <span className='price'>$39/month</span>
-              </div>
-              <hr />
-            </div>
-
-            <div className='price-item'>
               <h4>Private Lessons</h4>
               <p>Private, one-on-one instruction. Our most popular plan.</p>
               <div className='price-line'>
@@ -80,6 +64,23 @@ class Pricing extends Component {
               </div>
               <hr />
             </div>
+
+            <div className='price-item'>
+              <h4>Rock Shop</h4>
+              <p>
+                Beginner-level students meet once a month and play up to three
+                pre-chosen songs as a band. RockShop teaches young musicians the
+                fundamentals of playing songs from beginning to end with other
+                players and gets students ready to move up to the
+                intermediate-level band class (JamCore).
+              </p>
+              <div className='price-line'>
+                <span className='price-time'>30–120 minutes/class</span>
+                <span className='price'>$39/month</span>
+              </div>
+              <hr />
+            </div>
+
           </div>
           {/* Second column for pricing */}
           <div className='price-category'>

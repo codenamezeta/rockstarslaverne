@@ -23,6 +23,23 @@ class Contact extends Component {
                   <span>
                     Would love to hear from you. Call us directly at:
                     <a href='tel:9096757580'>(909) 675-7580</a>
+                    <div style={{display: 'flex'}}>
+                    <a
+                      href='https://www.instagram.com/rockstarslaverne'
+                      target='_blank'
+                      rel='noreferrer noopener'
+                    >
+                      <i className='fab fa-instagram' style={{marginRight: '1.5em'}}></i>
+                    </a>
+                  
+                    <a
+                      href='https://www.facebook.com/rockstarslaverne/'
+                      target='_blank'
+                      rel='noreferrer noopener'
+                    >
+                      <i className='fab fa-facebook-f'></i>
+                    </a>
+                    </div>
                   </span>
                 </div>
               </div>
@@ -95,6 +112,7 @@ class Contact extends Component {
               </div>
             </div>
           </div>
+
         </div>
       </section>
     )

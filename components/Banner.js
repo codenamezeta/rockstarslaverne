@@ -57,6 +57,24 @@ class Banner extends Component {
                             <i className='fa fa-play'></i> Watch the video!
                           </a>
                         </Link>
+                        <div className='social-icons'>
+                        <a
+                          href='https://www.instagram.com/rockstarslaverne'
+                          target='_blank'
+                          rel='noreferrer noopener'
+                          className="social-icon"
+                        >
+                          <i className='fab fa-instagram'></i>
+                        </a>
+                        <a
+                          href='https://www.facebook.com/rockstarslaverne/'
+                          target='_blank'
+                          rel='noreferrer noopener'
+                          className="social-icon"
+                        >
+                          <i className='fab fa-facebook-f'></i>
+                        </a>
+                        </div>
                       </div>
                     </div>
                   </div>
