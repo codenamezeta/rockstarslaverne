@@ -21,7 +21,7 @@ export default class MyApp extends App {
             type: 'website',
             locale: 'en_IE',
             url: 'https://rockstarslaverne.com/',
-            site_name: 'Rockstars Of Tomorrow – La Verne',
+            site_name: 'Rockstars Of Tomorrow',
           }}
         />
 
