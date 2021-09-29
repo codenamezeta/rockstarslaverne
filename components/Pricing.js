@@ -8,7 +8,10 @@ class Pricing extends Component {
           <div className='saas-section-title'>
             <h2>Pricing</h2>
             <div className='bar'></div>
-            <p>$100 off ANY first band class for ALL students</p>
+            <p>
+              $100 off ANY first band class for ALL students enrolled in weekly
+              private lessons.
+            </p>
           </div>
 
           <div className='price-category'>
@@ -80,7 +83,6 @@ class Pricing extends Component {
               </div>
               <hr />
             </div>
-
           </div>
           {/* Second column for pricing */}
           <div className='price-category'>
