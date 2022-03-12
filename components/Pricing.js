@@ -71,7 +71,7 @@ class Pricing extends Component {
             <div className='price-item'>
               <h4>Rock Shop</h4>
               <p>
-                Beginner-level students meet once a month and play up to three
+                Beginner-level students meet once a month and play up to four
                 pre-chosen songs as a band. RockShop teaches young musicians the
                 fundamentals of playing songs from beginning to end with other
                 players and gets students ready to move up to the

@@ -176,7 +176,7 @@ class Services extends Component {
                     {/* <div className='icon bg-f78acb'>
                       <i className='fas fa-th'></i>
                     </div> */}
-                    <h3>Weekly Open Mic</h3>
+                    <h3>Monthly Open Mic</h3>
                     <p>
                       Open to all students, parents and even non-students to
                       perform anything they want. Students can work with their
@@ -212,7 +212,7 @@ class Services extends Component {
                     </div> */}
                     <h3>RockShop</h3>
                     <p>
-                      Beginner students meet once a month and play up to 3
+                      Beginner students meet once a month and play up to 4
                       pre-chosen songs as a band. Designed to teach the
                       fundamentals of playing a song from beginning to end with
                       other players and gets students ready to move up to the
