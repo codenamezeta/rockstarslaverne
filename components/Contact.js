@@ -8,7 +8,7 @@ class Contact extends Component {
           <div className='saas-section-title'>
             <h2>Contact Us</h2>
             <div className='bar'></div>
-            <p>Get in touch with Rockstars Of Tomorrow - La Verne.</p>
+            <p>Get in touch with Rockstars Of Tomorrow La Verne.</p>
           </div>
 
           <div className='contact-form'>
@@ -21,24 +21,27 @@ class Contact extends Component {
                   </p>
 
                   <span>
-                    Would love to hear from you. Call us directly at:
+                    Would love to hear from you. You can call us directly at:
                     <a href='tel:9096757580'>(909) 675-7580</a>
-                    <div style={{display: 'flex'}}>
-                    <a
-                      href='https://www.instagram.com/rockstarslaverne'
-                      target='_blank'
-                      rel='noreferrer noopener'
-                    >
-                      <i className='fab fa-instagram' style={{marginRight: '1.5em'}}></i>
-                    </a>
-                  
-                    <a
-                      href='https://www.facebook.com/rockstarslaverne/'
-                      target='_blank'
-                      rel='noreferrer noopener'
-                    >
-                      <i className='fab fa-facebook-f'></i>
-                    </a>
+                    <div style={{ display: 'flex' }}>
+                      <a
+                        href='https://www.instagram.com/rockstarslaverne'
+                        target='_blank'
+                        rel='noreferrer noopener'
+                      >
+                        <i
+                          className='fab fa-instagram'
+                          style={{ marginRight: '1.5em' }}
+                        ></i>
+                      </a>
+
+                      <a
+                        href='https://www.facebook.com/rockstarslaverne/'
+                        target='_blank'
+                        rel='noreferrer noopener'
+                      >
+                        <i className='fab fa-facebook-f'></i>
+                      </a>
                     </div>
                   </span>
                 </div>
@@ -112,7 +115,6 @@ class Contact extends Component {
               </div>
             </div>
           </div>
-
         </div>
       </section>
     )

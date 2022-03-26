@@ -32,7 +32,7 @@ class Banner extends Component {
           <div className='d-table'>
             <div className='d-table-cell'>
               <div className='container'>
-                <div className='row align-items-center'>
+                <div className='row' style={{ marginTop: '5em' }}>
                   <div className='col-lg-6 col-md-12'>
                     <div className='app-banner-content'>
                       <h1>Unleash Your Inner Rockstar!</h1>
@@ -58,22 +58,22 @@ class Banner extends Component {
                           </a>
                         </Link>
                         <div className='social-icons'>
-                        <a
-                          href='https://www.instagram.com/rockstarslaverne'
-                          target='_blank'
-                          rel='noreferrer noopener'
-                          className="social-icon"
-                        >
-                          <i className='fab fa-instagram'></i>
-                        </a>
-                        <a
-                          href='https://www.facebook.com/rockstarslaverne/'
-                          target='_blank'
-                          rel='noreferrer noopener'
-                          className="social-icon"
-                        >
-                          <i className='fab fa-facebook-f'></i>
-                        </a>
+                          <a
+                            href='https://www.instagram.com/rockstarslaverne'
+                            target='_blank'
+                            rel='noreferrer noopener'
+                            className='social-icon'
+                          >
+                            <i className='fab fa-instagram'></i>
+                          </a>
+                          <a
+                            href='https://www.facebook.com/rockstarslaverne/'
+                            target='_blank'
+                            rel='noreferrer noopener'
+                            className='social-icon'
+                          >
+                            <i className='fab fa-facebook-f'></i>
+                          </a>
                         </div>
                       </div>
                     </div>

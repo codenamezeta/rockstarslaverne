@@ -32,6 +32,7 @@ const Widget = () => {
         margin: '0, auto',
       }}
     >
+      <h2 style={{ textAlign: 'left' }}>Free Trial</h2>
       <iframe
         id='sb_registration_if'
         src='//app.mymusicstaff.com/Widget/v3/content/en/index.html?id=sch_xPSJS&amp;accentColor=3A0A03&amp;accentTextColor=f0f0f088&amp;SameSite=Lax'

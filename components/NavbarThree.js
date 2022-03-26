@@ -125,7 +125,7 @@ class NavbarThree extends Component {
                     className='nav-link'
                     href='#features'
                   >
-                    Features
+                    Portal
                   </AnchorLink>
                 </li>
                 <li className='nav-item'>
@@ -174,7 +174,7 @@ class NavbarThree extends Component {
                     href='https://app.mymusicstaff.com'
                     target='_blank'
                     rel='noopener noreferer'
-                    className='btn btn-primary nav-btn'
+                    className='btn btn-secondary nav-btn'
                   >
                     Login
                   </a>
