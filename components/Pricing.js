@@ -22,22 +22,22 @@ class Pricing extends Component {
               <p>Private, one-on-one instruction. Our most popular plan.</p>
               <div className='price-line'>
                 <span className='price-time'>20 minutes/week</span>
-                <span className='price'>$119/month</span>
+                <span className='price'>$129/month</span>
               </div>
               <hr />
               <div className='price-line'>
                 <span className='price-time'>30 minutes/week</span>
-                <span className='price'>$145/month</span>
+                <span className='price'>$155/month</span>
               </div>
               <hr />
               <div className='price-line'>
                 <span className='price-time'>45 minutes/week</span>
-                <span className='price'>$215/month</span>
+                <span className='price'>$225/month</span>
               </div>
               <hr />
               <div className='price-line'>
                 <span className='price-time'>60 minutes/week</span>
-                <span className='price'>$280/month</span>
+                <span className='price'>$290/month</span>
               </div>
               <hr />
             </div>
