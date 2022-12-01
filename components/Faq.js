@@ -22,7 +22,7 @@ class Faq extends Component {
 
           <div className='faq'>
             <Accordion>
-              <AccordionItem>
+              {/* <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton>
                     Are there discounts for enrolling multiple students?
@@ -34,7 +34,7 @@ class Faq extends Component {
                     private lesson you are enrolled in.
                   </p>
                 </AccordionItemPanel>
-              </AccordionItem>
+              </AccordionItem> */}
 
               <AccordionItem>
                 <AccordionItemHeading>
@@ -136,7 +136,7 @@ class Faq extends Component {
                 </AccordionItemPanel>
               </AccordionItem>
 
-              <AccordionItem>
+              {/* <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton>
                     What if I want to take an hour long lesson?
@@ -150,7 +150,7 @@ class Faq extends Component {
                     $10 from the cost, this includes hour long lessons.
                   </p>
                 </AccordionItemPanel>
-              </AccordionItem>
+              </AccordionItem> */}
             </Accordion>
           </div>
         </div>

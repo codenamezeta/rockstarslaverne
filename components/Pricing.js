@@ -19,27 +19,40 @@ class Pricing extends Component {
 
             <div className='price-item'>
               <h4>Private Lessons</h4>
-              <p>Private, one-on-one instruction. Our most popular plan.</p>
-              <div className='price-line'>
-                <span className='price-time'>20 minutes/week</span>
-                <span className='price'>$129/month</span>
+              <p>
+                Private, one-on-one instruction. Our most popular plan. Private
+                groups with your own family members and/or friends are available
+                as well.
+              </p>
+              <div className='price-row price-row-tall'>
+                <span className='price-number'>20</span>
+                <span className='price-time'>minutes/week</span>
+                <span className='price'>$125/month</span>
+                <span className='additional'>(+$55/add'l student)</span>
+                <hr />
               </div>
-              <hr />
-              <div className='price-line'>
-                <span className='price-time'>30 minutes/week</span>
+              <div className='price-row price-row-tall'>
+                <span className='price-number'>30</span>
+                <span className='price-time'>minutes/week</span>
                 <span className='price'>$155/month</span>
+                <span className='additional'>(+$65/add'l student)</span>
+                <hr />
               </div>
-              <hr />
-              <div className='price-line'>
-                <span className='price-time'>45 minutes/week</span>
-                <span className='price'>$225/month</span>
+
+              <div className='price-row price-row-tall'>
+                <span className='price-number'>45</span>
+                <span className='price-time'>minutes/week</span>
+                <span className='price'>$230/month</span>
+                <span className='additional'>(+$85/add'l student)</span>
+                <hr />
               </div>
-              <hr />
-              <div className='price-line'>
-                <span className='price-time'>60 minutes/week</span>
-                <span className='price'>$290/month</span>
+              <div className='price-row price-row-tall'>
+                <span className='price-number'>60</span>
+                <span className='price-time'>minutes/week</span>
+                <span className='price'>$300/month</span>
+                <span className='additional'>(+$105/add'l student)</span>
+                <hr />
               </div>
-              <hr />
             </div>
 
             <div className='price-item'>
@@ -48,14 +61,15 @@ class Pricing extends Component {
                 Learn your favorite instrument in a group setting with others.
                 Great option for younger students and beginners.
               </p>
-              <div className='price-line'>
-                <span className='price-time'>20–60 minutes/week</span>
+              <div className='price-row'>
+                <span className='price-number'>20-60</span>
+                <span className='price-time'>minutes/week</span>
                 <span className='price'>$99/month</span>
+                <hr />
               </div>
-              <hr />
             </div>
 
-            <div className='price-item'>
+            {/* <div className='price-item'>
               <h4>Private Group Lessons</h4>
               <p>
                 Closed group lesson with your own family members and/or friends.
@@ -66,7 +80,7 @@ class Pricing extends Component {
                 <span className='price'>$125/student/month</span>
               </div>
               <hr />
-            </div>
+            </div> */}
 
             <div className='price-item'>
               <h4>Rock Shop</h4>
@@ -77,11 +91,17 @@ class Pricing extends Component {
                 players and gets students ready to move up to the
                 intermediate-level band class (JamCore).
               </p>
-              <div className='price-line'>
+              <div className='price-row'>
+                <span className='price-number'>30-60</span>
+                <span className='price-time'>minutes/class</span>
+                <span className='price'>$39/month</span>
+                <hr />
+              </div>
+              {/* <div className='price-row'>
                 <span className='price-time'>30–120 minutes/class</span>
                 <span className='price'>$39/month</span>
-              </div>
-              <hr />
+                <hr />
+              </div> */}
             </div>
           </div>
           {/* Second column for pricing */}
@@ -98,11 +118,13 @@ class Pricing extends Component {
                 songs and performances until they're ready to move up to the
                 advanced level band class (BandCore).
               </p>
-              <div className='price-line'>
-                <span className='price-time'>60 minutes/week</span>
+              <div className='price-row price-row-tall'>
+                <span className='price-number'>30-120</span>
+                <span className='price-time'>minutes/week</span>
                 <span className='price'>$69/month**</span>
+                <span className='additional'>Restrictions apply</span>
+                <hr />
               </div>
-              <hr />
             </div>
 
             <div className='price-item'>
@@ -115,10 +137,17 @@ class Pricing extends Component {
                 bands, different songs, and fresh performances.
               </p>
               <div className='price-line'>
-                <span className='price-time'>60 minutes/week</span>
-                <span className='price'>$99/month – restrictions apply**</span>
+                <div className='price-row price-row-tall'>
+                  <span className='price-number'>30-120</span>
+                  <span className='price-time'>minutes/week</span>
+                  <span className='price'>$99/month**</span>
+                  <span className='additional'>Restrictions apply</span>
+                  <hr />
+                </div>
+                {/* <span className='price-time'>60 minutes/week</span>
+                <span className='price'>$99/month – restrictions apply**</span> */}
               </div>
-              <hr />
+              {/* <hr /> */}
             </div>
 
             <div className='price-item'>
@@ -134,11 +163,11 @@ class Pricing extends Component {
                 opportunities to work their way up to our most anticipated shows
                 at the most incredible venues in Southern California.
               </p>
-              <div className='price-line'>
+              <div className='price-row'>
                 <span className='price-time'>Fully customizable</span>
                 <span className='price'>Prices & times vary</span>
+                <hr />
               </div>
-              <hr />
             </div>
           </div>
           <p className='price-disclaimer'>
