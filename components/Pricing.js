@@ -8,10 +8,10 @@ class Pricing extends Component {
           <div className='saas-section-title'>
             <h2>Pricing</h2>
             <div className='bar'></div>
-            <p>
+            {/* <p>
               $100 off ANY first band class for ALL students enrolled in weekly
               private lessons.
-            </p>
+            </p> */}
           </div>
 
           <div className='price-category'>
@@ -20,9 +20,8 @@ class Pricing extends Component {
             <div className='price-item'>
               <h4>Private Lessons</h4>
               <p>
-                Private, one-on-one instruction. Our most popular plan. Private
-                groups with your own family members and/or friends are available
-                as well.
+                Our most popular plan. Private, one-on-one instruction or
+                private groups with your own family members and/or friends.
               </p>
               <div className='price-row price-row-tall'>
                 <span className='price-number'>20</span>
@@ -63,7 +62,7 @@ class Pricing extends Component {
               </p>
               <div className='price-row'>
                 <span className='price-number'>20-60</span>
-                <span className='price-time'>minutes/week</span>
+                <span className='price-time'>minutes/week**</span>
                 <span className='price'>$99/month</span>
                 <hr />
               </div>
@@ -92,8 +91,8 @@ class Pricing extends Component {
                 intermediate-level band class (JamCore).
               </p>
               <div className='price-row'>
-                <span className='price-number'>30-60</span>
-                <span className='price-time'>minutes/class</span>
+                <span className='price-number'>30-120</span>
+                <span className='price-time'>minutes/class**</span>
                 <span className='price'>$39/month</span>
                 <hr />
               </div>
@@ -120,9 +119,9 @@ class Pricing extends Component {
               </p>
               <div className='price-row price-row-tall'>
                 <span className='price-number'>30-120</span>
-                <span className='price-time'>minutes/week</span>
-                <span className='price'>$69/month**</span>
-                <span className='additional'>Restrictions apply</span>
+                <span className='price-time'>minutes/week**</span>
+                <span className='price'>$69/month</span>
+                <span className='additional'>Restrictions apply***</span>
                 <hr />
               </div>
             </div>
@@ -139,9 +138,9 @@ class Pricing extends Component {
               <div className='price-line'>
                 <div className='price-row price-row-tall'>
                   <span className='price-number'>30-120</span>
-                  <span className='price-time'>minutes/week</span>
-                  <span className='price'>$99/month**</span>
-                  <span className='additional'>Restrictions apply</span>
+                  <span className='price-time'>minutes/week**</span>
+                  <span className='price'>$99/month</span>
+                  <span className='additional'>Restrictions apply***</span>
                   <hr />
                 </div>
                 {/* <span className='price-time'>60 minutes/week</span>
@@ -157,7 +156,7 @@ class Pricing extends Component {
                 ongoing, fully customizable program. Students of any skill level
                 form their dream ensemble and obtain personalized coaching to
                 help them develop as artists. Learn and participate in
-                songwriting*, recording*, photoshoots*, video shoots*,
+                songwriting*, recording*, photo shoots*, video shoots*,
                 promotion*, and anything else you may ever want. RockstarPro
                 bands get extra rehearsal time for free, along with
                 opportunities to work their way up to our most anticipated shows
@@ -171,9 +170,11 @@ class Pricing extends Component {
             </div>
           </div>
           <p className='price-disclaimer'>
-            **Prices based on active, private lesson enrollment.
-            <br />
             *Discounted services. Not included in the monthly price.
+            <br />
+            **Time based on number of students enrolled.
+            <br />
+            ***$25 additional without active lesson enrollment.
           </p>
         </div>
       </section>
