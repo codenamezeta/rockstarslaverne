@@ -21,6 +21,10 @@
 //   if (existingScript && callback) callback()
 // }
 
+{
+  /* <script type='text/javascript' src='https://app.mymusicstaff.com/Widget/v3/Registration.ashx?id=sch_xPSJS' class='sb_registration'></script> */
+}
+
 const Widget = () => {
   return (
     <div
@@ -39,9 +43,7 @@ const Widget = () => {
         allowtransparency='true'
         scrolling='yes'
         style={{
-          overflow: 'scroll',
-          minHeight: '500px',
-          height: '750px',
+          minHeight: '933px',
         }}
         width='100%'
         height='750px'
