@@ -43,7 +43,7 @@ const Widget = () => {
         allowtransparency='true'
         scrolling='yes'
         style={{
-          minHeight: '933px',
+          minHeight: '950px',
         }}
         width='100%'
         height='750px'
