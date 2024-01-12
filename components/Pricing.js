@@ -26,30 +26,30 @@ class Pricing extends Component {
               <div className='price-row price-row-tall'>
                 <span className='price-number'>20</span>
                 <span className='price-time'>minutes/week</span>
-                <span className='price'>$125/month</span>
-                <span className='additional'>(+$55/add'l student)</span>
+                <span className='price'>$127/month</span>
+                <span className='additional'>(+$57/add'l student)</span>
                 <hr />
               </div>
               <div className='price-row price-row-tall'>
                 <span className='price-number'>30</span>
                 <span className='price-time'>minutes/week</span>
-                <span className='price'>$155/month</span>
-                <span className='additional'>(+$65/add'l student)</span>
+                <span className='price'>$159/month</span>
+                <span className='additional'>(+$69/add'l student)</span>
                 <hr />
               </div>
 
               <div className='price-row price-row-tall'>
                 <span className='price-number'>45</span>
                 <span className='price-time'>minutes/week</span>
-                <span className='price'>$230/month</span>
-                <span className='additional'>(+$85/add'l student)</span>
+                <span className='price'>$237/month</span>
+                <span className='additional'>(+$87/add'l student)</span>
                 <hr />
               </div>
               <div className='price-row price-row-tall'>
                 <span className='price-number'>60</span>
                 <span className='price-time'>minutes/week</span>
-                <span className='price'>$300/month</span>
-                <span className='additional'>(+$105/add'l student)</span>
+                <span className='price'>$309/month</span>
+                <span className='additional'>(+$109/add'l student)</span>
                 <hr />
               </div>
             </div>
@@ -93,7 +93,7 @@ class Pricing extends Component {
               <div className='price-row'>
                 <span className='price-number'>30-120</span>
                 <span className='price-time'>minutes/class**</span>
-                <span className='price'>$39/month</span>
+                <span className='price'>$49/month</span>
                 <hr />
               </div>
               {/* <div className='price-row'>
@@ -120,7 +120,7 @@ class Pricing extends Component {
               <div className='price-row price-row-tall'>
                 <span className='price-number'>30-120</span>
                 <span className='price-time'>minutes/week**</span>
-                <span className='price'>$69/month</span>
+                <span className='price'>$79/month</span>
                 <span className='additional'>Restrictions apply***</span>
                 <hr />
               </div>
