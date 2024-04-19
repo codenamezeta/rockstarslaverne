@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import dynamic from 'next/dynamic'
+import Image from 'next/image'
 const OwlCarousel = dynamic(import('react-owl-carousel3'))
 
 const options = {
@@ -52,9 +53,11 @@ class Services extends Component {
             <div className='row h-100 justify-content-center align-items-center'>
               <div className='col-lg-6 col-md-12'>
                 <div className='services-image'>
-                  <img
-                    src={require('../images/zeta/guitar-kid-3-2.jpg')}
+                  <Image
+                    src='/images/zeta/guitar-kid-3-2.jpg'
                     alt='A real Rockstar'
+                    height={800}
+                    width={1000}
                   />
                 </div>
               </div>

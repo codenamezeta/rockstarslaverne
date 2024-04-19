@@ -1,6 +1,8 @@
 import React from 'react'
 import NavbarThree from '../components/NavbarThree'
 import Footer from '../components/Footer'
+import Image from 'next/image'
+// import src from '/images/404.png'
 
 class Error extends React.Component {
   static getInitialProps({ res, err }) {
@@ -25,7 +27,12 @@ class Error extends React.Component {
         <section className='error-area ptb-100'>
           <div className='container'>
             <div className='error-content'>
-              <img src={require('../images/404.png')} alt='error' />
+              <Image
+                src='/images/404.png'
+                alt='Error 404'
+                width={500}
+                height={300}
+              />
 
               <form className='search-form'>
                 <input

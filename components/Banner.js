@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import Link from 'next/link'
 import ModalVideo from 'react-modal-video'
-import '../node_modules/react-modal-video/scss/modal-video.scss'
 import Widget from './Widget'
 
 class Banner extends Component {
@@ -46,7 +45,7 @@ class Banner extends Component {
                         <a href='tel:+9096757580' className='btn btn-primary'>
                           Give Us A Call
                         </a>
-                        <Link href='#'>
+                        <Link href='#' legacyBehavior>
                           <a
                             onClick={(e) => {
                               e.preventDefault()
@@ -89,7 +88,7 @@ class Banner extends Component {
                       ></script> */}
 
                       {/* <img
-                        src={require('../../images/phones_flat.png')}
+                        src={require('/images/phones_flat.png')}
                         alt='phone'
                       /> */}
                     </div>

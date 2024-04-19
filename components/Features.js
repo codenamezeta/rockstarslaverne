@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Image from 'next/image'
 const isServer = typeof window === 'undefined'
 const WOW = !isServer ? require('wowjs') : null
 
@@ -22,7 +23,12 @@ class Features extends Component {
             <div className='bar'></div>
             <p>
               Rockstars Of Tomorrow La Verne is proud to work with{' '}
-              <a className='inline-a' href='https://www.mymusicstaff.com/' rel='noopener noreferer' target='_blank'>
+              <a
+                className='inline-a'
+                href='https://www.mymusicstaff.com/'
+                rel='noopener noreferer'
+                target='_blank'
+              >
                 My Music Staff
               </a>
               , the #1 music studio software. Easily &amp; securely manage
@@ -140,14 +146,16 @@ class Features extends Component {
 
             <div className='col-lg-6 col-md-12'>
               <div className='features-image'>
-                <img
-                  src={require('../images/zeta/mms-graphic-01.png')}
+                <Image
+                  src='/images/zeta/mms-graphic-01.png'
                   className='wow fadeIn'
                   data-wow-delay='0.6s'
                   alt='main-pic'
+                  width={400}
+                  height={400}
                 />
                 {/* <img
-                  src={require('../../images/circle-shape.png')}
+                  src={require('/images/circle-shape.png')}
                   className='rotate-image rotateme'
                   alt='circle'
                 /> */}

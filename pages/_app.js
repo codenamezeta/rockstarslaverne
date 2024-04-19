@@ -3,6 +3,7 @@ import '../assets/css/animate.min.css'
 import '../assets/css/fontawesome.min.css'
 import '../assets/css/style.scss'
 import '../assets/css/responsive.scss'
+import 'react-modal-video/scss/modal-video.scss'
 
 import { Preloader, Placeholder } from 'react-preloading-screen'
 import App from 'next/app'

@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import Link from 'next/link'
-import AnchorLink from 'react-anchor-link-smooth-scroll'
 import SeoSection from './SeoSection'
 import logo from '../images/zeta/logo.svg'
 import Image from 'next/image'
@@ -20,7 +19,7 @@ class NavbarThree extends Component {
     this._isMounted = true
     let elementId = document.getElementById('navbar')
     document.addEventListener('scroll', () => {
-      if (window.scrollY > 170) {
+      if (window.scrollY > 240) {
         elementId.classList.add('is-sticky')
       } else {
         elementId.classList.remove('is-sticky')
@@ -63,9 +62,9 @@ class NavbarThree extends Component {
     return (
       <React.Fragment>
         <SeoSection
-          title='Rockstars of Tomorrow – La Verne'
+          title='Summer Camp at Rockstars of Tomorrow – La Verne'
           desc='From playing your first chord to recording your debut album, Rockstars of Tomorrow - La Verne is the neighborhood music studio that brings out the rockstar in everyone.'
-          url='https://rockstarslaverne.com'
+          url='https://rockstarslaverne.com/summer-camp'
         />
 
         <nav
@@ -101,89 +100,23 @@ class NavbarThree extends Component {
             <div className={classOne} id='navbarSupportedContent'>
               <ul className='navbar-nav ml-auto'>
                 <li className='nav-item'>
-                  <AnchorLink
+                  <a
+                    onClick={this.toggleNavbar}
+                    offset={() => 100}
+                    className='nav-link'
+                    href='/'
+                  >
+                    Home
+                  </a>
+                </li>
+                <li className='nav-item'>
+                  <a
                     onClick={this.toggleNavbar}
                     offset={() => 100}
                     className='nav-link active'
-                    href='#home'
+                    href='/summer-camp'
                   >
-                    Enroll
-                  </AnchorLink>
-                </li>
-                <li className='nav-item'>
-                  <AnchorLink
-                    onClick={this.toggleNavbar}
-                    offset={() => 50}
-                    className='nav-link'
-                    href='#programs'
-                  >
-                    Programs
-                  </AnchorLink>
-                </li>
-                {/* <li className='nav-item'>
-                  <AnchorLink
-                    onClick={this.toggleNavbar}
-                    offset={() => 50}
-                    className='nav-link'
-                    href='#features'
-                  >
-                    Portal
-                  </AnchorLink>
-                </li> */}
-                <li>
-                  <Link href='/summer-camp' className='navbar-brand'>
-                    JamCamp
-                  </Link>
-                </li>
-                {/* <li className='nav-item'>
-                  <AnchorLink
-                    onClick={this.toggleNavbar}
-                    offset={() => 150}
-                    className='nav-link'
-                    href='#testimonials'
-                  >
-                    Testimonials
-                  </AnchorLink>
-                </li> */}
-                <li className='nav-item'>
-                  <AnchorLink
-                    onClick={this.toggleNavbar}
-                    offset={() => 50}
-                    className='nav-link'
-                    href='#pricing'
-                  >
-                    Pricing
-                  </AnchorLink>
-                </li>
-                {/* <li className='nav-item'>
-                  <AnchorLink
-                    onClick={this.toggleNavbar}
-                    offset={() => -10}
-                    className='nav-link'
-                    href='#blog'
-                  >
-                    News
-                  </AnchorLink>
-                </li> */}
-                <li className='nav-item'>
-                  <AnchorLink
-                    onClick={this.toggleNavbar}
-                    offset={() => 50}
-                    className='nav-link'
-                    href='#contact'
-                  >
-                    Contact
-                  </AnchorLink>
-                </li>
-
-                <li className='nav-item'>
-                  <a
-                    href='https://app.mymusicstaff.com'
-                    target='_blank'
-                    rel='noopener noreferer'
-                    className='btn btn-secondary nav-btn'
-                  >
-                    Login
+                    Summer JamCamp
                   </a>
                 </li>
               </ul>

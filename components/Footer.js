@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 
 class Footer extends Component {
   render() {
@@ -10,12 +11,14 @@ class Footer extends Component {
             <div className='col-lg-4 col-md-6'>
               <div className='single-footer-widget'>
                 <div className='logo'>
-                  <Link href='/'>
+                  <Link legacyBehavior href='/'>
                     <a>
-                      <img
-                        src={require('../images/zeta/logo.png')}
+                      <Image
+                        src='/images/zeta/logo.svg'
                         style={{ height: '60px' }}
                         alt='logo'
+                        height={60}
+                        width={60}
                       />
                     </a>
                   </Link>
@@ -117,18 +120,18 @@ class Footer extends Component {
                     </a>
                   </li>
                   <li>
-                    <Link href='#'>
+                    <Link legacyBehavior href='#'>
                       <a>Privacy Policy</a>
                     </Link>
                   </li>
 
                   <li>
-                    <Link href='#'>
+                    <Link legacyBehavior href='#'>
                       <a>Terms & Conditions</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href='#home'>
+                    <Link legacyBehavior href='#home'>
                       <a>Enrollment</a>
                     </Link>
                   </li>
@@ -233,14 +236,14 @@ class Footer extends Component {
                     </a>
                   </li>
                   {/* <li>
-                    <Link href='#'>
+                    <Link legacyBehavior href='#' legacyBehavior >
                       <a>
                         <i className='fab fa-youtube'></i>
                       </a>
                     </Link>
                   </li>
                   <li>
-                    <Link href='#'>
+                    <Link legacyBehavior href='#' legacyBehavior >
                       <a>
                         <i className='fab fa-linkedin-in'></i>
                       </a>
@@ -253,7 +256,7 @@ class Footer extends Component {
         </div>
 
         {/* <div className='map2'>
-          <img src={require('../../images/zeta/guitar-girl.jpg')} alt='map' />
+          <img src={require('/images/zeta/guitar-girl.jpg')} alt='map' />
         </div> */}
       </footer>
     )

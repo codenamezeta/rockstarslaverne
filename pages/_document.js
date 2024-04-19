@@ -5,11 +5,12 @@ class MyDocument extends Document {
     return (
       <Html lang='en'>
         <Head>
-          <link
+          <script async src='https://js.stripe.com/v3/buy-button.js'></script>
+          {/* <link
             rel='icon'
             type='image/png'
-            href={require('../images/favicon.ico')}
-          ></link>
+            href={require('/images/favicon .png')}
+          ></link> */}
           <meta httpEquiv='Content-Type' content='text/html; charset=utf-8' />
 
           <meta

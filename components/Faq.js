@@ -8,7 +8,7 @@ import {
 } from 'react-accessible-accordion'
 // Demo styles, see 'Styles' section below for some notes on use.
 import 'react-accessible-accordion/dist/fancy-example.css'
-// import img from '../../images/zeta/guitar-kid.jpg'
+// import img from '/images/zeta/guitar-kid.jpg'
 
 class Faq extends Component {
   render() {

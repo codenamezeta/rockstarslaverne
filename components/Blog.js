@@ -54,12 +54,9 @@ class Blog extends Component {
                 <div className='col-lg-12 col-md-12'>
                   <div className='single-blog-item'>
                     <div className='blog-image'>
-                      <Link href='#'>
+                      <Link legacyBehavior href='#'>
                         <a>
-                          <img
-                            src={require('../../images/blog1.jpg')}
-                            alt='blog'
-                          />
+                          <img src={require('/images/blog1.jpg')} alt='blog' />
                         </a>
                       </Link>
 
@@ -77,7 +74,7 @@ class Blog extends Component {
                         Lorem Ipsum is simply dummy text of the printing and
                         typesetting industry. Lorem Ipsum.
                       </p>
-                      <Link href='#'>
+                      <Link href='#' legacyBehavior>
                         <a className='read-more-btn'>
                           Read More <i className='icofont-double-right'></i>
                         </a>
@@ -89,12 +86,9 @@ class Blog extends Component {
                 <div className='col-lg-12 col-md-12'>
                   <div className='single-blog-item'>
                     <div className='blog-image'>
-                      <Link href='#'>
+                      <Link href='#' legacyBehavior>
                         <a>
-                          <img
-                            src={require('../../images/blog2.jpg')}
-                            alt='blog'
-                          />
+                          <img src={require('/images/blog2.jpg')} alt='blog' />
                         </a>
                       </Link>
 
@@ -114,7 +108,7 @@ class Blog extends Component {
                         Lorem Ipsum is simply dummy text of the printing and
                         typesetting industry. Lorem Ipsum.
                       </p>
-                      <Link href='#'>
+                      <Link href='#' legacyBehavior>
                         <a className='read-more-btn'>
                           Read More <i className='icofont-double-right'></i>
                         </a>
@@ -126,12 +120,9 @@ class Blog extends Component {
                 <div className='col-lg-12 col-md-12'>
                   <div className='single-blog-item'>
                     <div className='blog-image'>
-                      <Link href='#'>
+                      <Link href='#' legacyBehavior>
                         <a>
-                          <img
-                            src={require('../../images/blog3.jpg')}
-                            alt='blog'
-                          />
+                          <img src={require('/images/blog3.jpg')} alt='blog' />
                         </a>
                       </Link>
 
@@ -149,7 +140,7 @@ class Blog extends Component {
                         Lorem Ipsum is simply dummy text of the printing and
                         typesetting industry. Lorem Ipsum.
                       </p>
-                      <Link href='#'>
+                      <Link href='#' legacyBehavior>
                         <a className='read-more-btn'>
                           Read More <i className='icofont-double-right'></i>
                         </a>
@@ -161,12 +152,9 @@ class Blog extends Component {
                 <div className='col-lg-12 col-md-12'>
                   <div className='single-blog-item'>
                     <div className='blog-image'>
-                      <Link href='#'>
+                      <Link href='#' legacyBehavior>
                         <a>
-                          <img
-                            src={require('../../images/blog4.jpg')}
-                            alt='blog'
-                          />
+                          <img src={require('/images/blog4.jpg')} alt='blog' />
                         </a>
                       </Link>
 
@@ -186,7 +174,7 @@ class Blog extends Component {
                         Lorem Ipsum is simply dummy text of the printing and
                         typesetting industry. Lorem Ipsum.
                       </p>
-                      <Link href='#'>
+                      <Link href='#' legacyBehavior>
                         <a className='read-more-btn'>
                           Read More <i className='icofont-double-right'></i>
                         </a>

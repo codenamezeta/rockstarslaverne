@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Image from 'next/image'
 
 class Subscribe extends Component {
   render() {
@@ -40,10 +41,15 @@ class Subscribe extends Component {
         </div>
 
         <div className='rocket'>
-          <img src={require('../images/zeta/flying-v-2.png')} alt='guitar' />
+          <Image
+            src='/images/zeta/flying-v-2.png'
+            alt='guitar'
+            width={100}
+            height={100}
+          />
         </div>
         <div className='map'>
-          <img src={require('../images/map.png')} alt='map' />
+          <Image src='/images/map.png' alt='map' width={1000} height={1000} />
         </div>
       </section>
     )

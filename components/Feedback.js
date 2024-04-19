@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import dynamic from 'next/dynamic'
+import Image from 'next/image'
 const OwlCarousel = dynamic(import('react-owl-carousel3'))
 
 const options = {
@@ -53,9 +54,11 @@ class Feedback extends Component {
               >
                 <div className='col-lg-12 col-md-12'>
                   <div className='feedback-item'>
-                    <img
-                      src={require('../images/zeta/Kaelyn.png')}
+                    <Image
+                      src='/images/zeta/Kaelyn.png'
                       alt='client'
+                      width={1000}
+                      height={180}
                     />
                     <p>
                       This place is AMAZING! The whole staff is so nice and
@@ -70,8 +73,15 @@ class Feedback extends Component {
 
                     <div className='client-info'>
                       <h3>Kaelyn B.</h3>
-                      <span><a href="https://www.google.com/search?q=rockstars+of+tomorrow+la+verne&oq=rockstars+of+tomorrow+la+verne&aqs=chrome..69i57j69i60j69i61j69i60.4830j0j4&sourceid=chrome&ie=UTF-8#lrd=0x80c32f7d4b2bed15:0xe9feabccc14ce1f,1,,," rel='noopener noreferer' target='_blank'>Google</a></span>
-                      
+                      <span>
+                        <a
+                          href='https://www.google.com/search?q=rockstars+of+tomorrow+la+verne&oq=rockstars+of+tomorrow+la+verne&aqs=chrome..69i57j69i60j69i61j69i60.4830j0j4&sourceid=chrome&ie=UTF-8#lrd=0x80c32f7d4b2bed15:0xe9feabccc14ce1f,1,,,'
+                          rel='noopener noreferer'
+                          target='_blank'
+                        >
+                          Google
+                        </a>
+                      </span>
                     </div>
 
                     <i className='fas fa-quote-left'></i>
@@ -80,9 +90,11 @@ class Feedback extends Component {
 
                 <div className='col-lg-12 col-md-12'>
                   <div className='feedback-item'>
-                    <img
-                      src={require('../images/zeta/virgina.jpg')}
+                    <Image
+                      src='/images/zeta/virgina.jpg'
                       alt='client'
+                      width={1000}
+                      height={180}
                     />
                     <p>
                       Our boys attend Rockstars La Verne and love it. The boys
@@ -92,7 +104,15 @@ class Feedback extends Component {
 
                     <div className='client-info'>
                       <h3>Virginia A.</h3>
-                      <span><a href="https://www.facebook.com/rockstarslaverne/reviews/" rel='noopener noreferer' target='_blank'>Facebook</a></span>
+                      <span>
+                        <a
+                          href='https://www.facebook.com/rockstarslaverne/reviews/'
+                          rel='noopener noreferer'
+                          target='_blank'
+                        >
+                          Facebook
+                        </a>
+                      </span>
                     </div>
 
                     <i className='fas fa-quote-left'></i>
@@ -101,9 +121,11 @@ class Feedback extends Component {
 
                 <div className='col-lg-12 col-md-12'>
                   <div className='feedback-item'>
-                    <img
-                      src={require('../images/zeta/christine.jpg')}
+                    <Image
+                      src='/images/zeta/christine.jpg'
                       alt='client'
+                      width={1000}
+                      height={180}
                     />
                     <p>
                       Our family LOVES the Rockstars of La Verne family. Our
@@ -117,7 +139,15 @@ class Feedback extends Component {
 
                     <div className='client-info'>
                       <h3>Christine W.</h3>
-                      <span><a href="https://www.facebook.com/rockstarslaverne/reviews/" rel='noopener noreferer' target='_blank'>Facebook</a></span>
+                      <span>
+                        <a
+                          href='https://www.facebook.com/rockstarslaverne/reviews/'
+                          rel='noopener noreferer'
+                          target='_blank'
+                        >
+                          Facebook
+                        </a>
+                      </span>
                     </div>
 
                     <i className='fas fa-quote-left'></i>
@@ -126,9 +156,11 @@ class Feedback extends Component {
 
                 <div className='col-lg-12 col-md-12'>
                   <div className='feedback-item'>
-                    <img
-                      src={require('../images/zeta/krista.jpg')}
+                    <Image
+                      src='/images/zeta/krista.jpg'
                       alt='client'
+                      width={1000}
+                      height={180}
                     />
                     <p>
                       My 6yr old son started group guitar lessons soon after
@@ -143,7 +175,15 @@ class Feedback extends Component {
 
                     <div className='client-info'>
                       <h3>Krista C.</h3>
-                      <span><a href='https://www.yelp.com/biz/rockstars-of-tomorrow-la-verne' rel='noopener noreferer' target='_blank'>Yelp</a></span>
+                      <span>
+                        <a
+                          href='https://www.yelp.com/biz/rockstars-of-tomorrow-la-verne'
+                          rel='noopener noreferer'
+                          target='_blank'
+                        >
+                          Yelp
+                        </a>
+                      </span>
                     </div>
 
                     <i className='fas fa-quote-left'></i>
@@ -152,9 +192,11 @@ class Feedback extends Component {
 
                 <div className='col-lg-12 col-md-12'>
                   <div className='feedback-item'>
-                    <img
-                      src={require('../images/zeta/gina.jpg')}
+                    <Image
+                      src='/images/zeta/gina.jpg'
                       alt='client'
+                      width={1000}
+                      height={180}
                     />
                     <p>
                       We love this place. I have 2 kids that take lessons here
@@ -169,7 +211,15 @@ class Feedback extends Component {
 
                     <div className='client-info'>
                       <h3>Gina M.</h3>
-                      <span><a href="https://www.facebook.com/rockstarslaverne/reviews/" rel='noopener noreferer' target='_blank'>Facebook</a></span>
+                      <span>
+                        <a
+                          href='https://www.facebook.com/rockstarslaverne/reviews/'
+                          rel='noopener noreferer'
+                          target='_blank'
+                        >
+                          Facebook
+                        </a>
+                      </span>
                     </div>
 
                     <i className='fas fa-quote-left'></i>
@@ -178,15 +228,25 @@ class Feedback extends Component {
 
                 <div className='col-lg-12 col-md-12'>
                   <div className='feedback-item'>
-                    <img
-                      src={require('../images/zeta/billie.jpg')}
+                    <Image
+                      src='/images/zeta/billie.jpg'
                       alt='client'
+                      width={1000}
+                      height={180}
                     />
                     <p>Hands down the best place for music lessons!!!</p>
 
                     <div className='client-info'>
                       <h3>Billie S.</h3>
-                      <span><a href="https://www.facebook.com/rockstarslaverne/reviews/" rel='noopener noreferer' target='_blank'>Facebook</a></span>
+                      <span>
+                        <a
+                          href='https://www.facebook.com/rockstarslaverne/reviews/'
+                          rel='noopener noreferer'
+                          target='_blank'
+                        >
+                          Facebook
+                        </a>
+                      </span>
                     </div>
 
                     <i className='fas fa-quote-left'></i>

@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import CountUp from 'react-countup'
 import VisibilitySensor from 'react-visibility-sensor'
 import Link from 'next/link'
+import Image from 'next/image'
 import {
   yearsInBiz,
   numOfLessons,
@@ -138,14 +139,19 @@ class Funfact extends Component {
           <div className='contact-cta-box'>
             <h3>Have any question about us?</h3>
             <p>Don't hesitate to contact us.</p>
-            <Link href='#contact'>
+            <Link legacyBehavior href='#contact'>
               <a className='btn btn-primary'>Contact Us</a>
             </Link>
           </div>
         </div>
 
         <div className='map-bg'>
-          <img src={require('../images/zeta/stage-01.jpg')} alt='map' />
+          <Image
+            src='/images/zeta/stage-01.jpg'
+            alt='map'
+            width={2000}
+            height={750}
+          />
         </div>
       </section>
     )

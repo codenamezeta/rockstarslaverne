@@ -671,6 +671,7 @@ Main Banner CSS
 
 /*software-banner*/
 /*app-banner*/
+
 .app-banner {
   height: 850px;
   position: relative;
@@ -691,6 +692,9 @@ Main Banner CSS
   background: linear-gradient(to right top, #3a0a03cc, #c6a46f88);
   opacity: 0.88;
 }
+/* #jamcamp {
+  background-image: url(../../images/zeta/guitar-girl.jpg);
+} */
 
 .app-banner-image {
   margin-top: 80px;

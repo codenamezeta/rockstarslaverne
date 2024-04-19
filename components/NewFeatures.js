@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Image from 'next/image'
 
 class NewFeatures extends Component {
   openTabSection = (evt, tabNmae) => {
@@ -134,10 +135,12 @@ class NewFeatures extends Component {
                       chances are it was inspired by the electric guitar
                       revolution!
                     </p>
-                    <img
+                    <Image
                       className='instrument-photo'
-                      src={require('../images/zeta/guitar-04.jpg')}
+                      src='/images/zeta/guitar-04.jpg'
                       alt='new'
+                      width={750}
+                      height={500}
                     />
                   </div>
 
@@ -156,10 +159,12 @@ class NewFeatures extends Component {
                       demand for great bass players is strong. We take this
                       program serious so you will get noticed!
                     </p>
-                    <img
+                    <Image
                       className='instrument-photo'
-                      src={require('../images/zeta/bass-02.jpg')}
+                      src='/images/zeta/bass-02.jpg'
                       alt='new'
+                      height={750}
+                      width={500}
                     />
                   </div>
 
@@ -181,10 +186,12 @@ class NewFeatures extends Component {
                       percussion instruments that go beyond the traditional drum
                       sets as well.
                     </p>
-                    <img
+                    <Image
                       className='instrument-photo'
-                      src={require('../images/zeta/drums-04.jpg')}
+                      src='/images/zeta/drums-04.jpg'
                       alt='new'
+                      height={750}
+                      width={1000}
                     />
                   </div>
 
@@ -205,10 +212,12 @@ class NewFeatures extends Component {
                       improvising, counterpoint, and performance skills.
                       Learning the piano is fun again!
                     </p>
-                    <img
+                    <Image
                       className='instrument-photo'
-                      src={require('../images/zeta/keys-01.jpg')}
+                      src='/images/zeta/keys-01.jpg'
                       alt='new'
+                      height={500}
+                      width={750}
                     />
                   </div>
 
@@ -230,10 +239,12 @@ class NewFeatures extends Component {
                       to express yourself through music. Our vocal program will
                       give you a voice to be heard.
                     </p>
-                    <img
+                    <Image
                       className='instrument-photo'
-                      src={require('../images/zeta/vox-05.jpg')}
+                      src='/images/zeta/vox-05.jpg'
                       alt='new'
+                      height={500}
+                      width={750}
                     />
                   </div>
 
@@ -251,10 +262,12 @@ class NewFeatures extends Component {
                       on all your favorite songs. Don’t wait, this class could
                       lead you into your first real job in the music business!
                     </p>
-                    <img
+                    <Image
                       className='instrument-photo'
-                      src={require('../images/zeta/ukulele-02.jpg')}
+                      src='/images/zeta/ukulele-02.jpg'
                       alt='new'
+                      height={750}
+                      width={500}
                     />
                   </div>
 
@@ -272,10 +285,12 @@ class NewFeatures extends Component {
                       on all your favorite songs. Don’t wait, this class could
                       lead you into your first real job in the music business!
                     </p>
-                    <img
+                    <Image
                       className='instrument-photo'
-                      src={require('../images/zeta/audio-01.jpg')}
+                      src='/images/zeta/audio-01.jpg'
                       alt='new'
+                      height={750}
+                      width={500}
                     />
                   </div>
                   <div id='tab8' className='tabs_item'>
@@ -285,10 +300,12 @@ class NewFeatures extends Component {
                       one of the healthiest ways to express yourself. Hone your
                       craft and reach your goals – creative, commercial or both.
                     </p>
-                    <img
+                    <Image
                       className='instrument-photo'
-                      src={require('../images/zeta/songwriting-02.jpg')}
+                      src='/images/zeta/songwriting-02.jpg'
                       alt='new'
+                      height={750}
+                      width={500}
                     />
                   </div>
                 </div>
