@@ -1,6 +1,6 @@
 import React from 'react'
 import JamCampNavbar from '../components/JamCampNavbar'
-import JamCampSignupForm from '../components/JamcampSignupForm'
+import JamCampSignupForm from '../components/JamCampSignupForm'
 
 export default function HelloWorld() {
   return (
