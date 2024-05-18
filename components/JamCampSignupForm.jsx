@@ -47,19 +47,67 @@ export default function JamCampSignupForm() {
   }
   return (
     <Form onSubmit={handleSubmit}>
-      <Label htmlFor='students_first_name'>Students First Name</Label>
-      <Input id='students_first_name' type='text' name='students_first_name' />
+      <h2>Registration</h2>
+      {/* <p>
+        Use the form below to register for summer JamCamp. Please choose one
+        session and one student at a time.
+      </p> */}
+      <Label htmlFor='students_first_name'>Choose a Session *</Label>
+      <select
+        id='students_first_name'
+        type='text'
+        name='students_first_name'
+        style={{ marginBottom: '2em' }}
+        required
+      >
+        <option value='Session 1: 7/22 – 7/26 10am-2pm'>
+          Session 1: July 22nd – July 26th 10am-2pm
+        </option>
+        <option value='Session 2: 8/5 – 8/9 10am-2pm'>
+          Session 2: August 5th – August 9th 10am-2pm
+        </option>
+      </select>
 
-      <Label htmlFor='students_last_name'>Students Last Name</Label>
-      <Input id='students_last_name' type='text' name='students_last_name' />
+      <Label htmlFor='students_first_name'>Student's First Name *</Label>
+      <Input
+        id='students_first_name'
+        type='text'
+        name='students_first_name'
+        style={{ marginBottom: '2em' }}
+        required
+      />
 
-      <Label htmlFor='date_of_birth'>Student's Date of Birth</Label>
-      <Input id='date_of_birth' type='date' name='date_of_birth' />
+      <Label htmlFor='students_last_name'>Student's Last Name *</Label>
+      <Input
+        id='students_last_name'
+        type='text'
+        name='students_last_name'
+        style={{ marginBottom: '2em' }}
+        required
+      />
+
+      <Label htmlFor='date_of_birth'>Student's Date of Birth *</Label>
+      <Input
+        id='date_of_birth'
+        type='date'
+        name='date_of_birth'
+        style={{ marginBottom: '2em' }}
+        required
+      />
 
       <Label htmlFor='instruments'>
-        Instruments<small> cntl/cmd click to select multiple</small>
+        Instruments Preferred
+        <small style={{ fontSize: '0.75em' }}>
+          {' '}
+          cntl/cmd click to select multiple
+        </small>
       </Label>
-      <select id='instruments' name='instruments' multiple>
+      <select
+        id='instruments'
+        name='instruments'
+        multiple
+        style={{ marginBottom: '2em' }}
+      >
         <option value='guitar'>Guitar</option>
         <option value='bass'>Bass</option>
         <option value='drums'>Drums</option>
@@ -68,19 +116,47 @@ export default function JamCampSignupForm() {
       </select>
 
       <Label htmlFor='previous_experience'>Previous Experience</Label>
-      <TextArea id='previous_experience' name='previous_experience' />
+      <TextArea
+        id='previous_experience'
+        name='previous_experience'
+        style={{ marginBottom: '2em' }}
+      />
 
-      <Label htmlFor='parents_first_name'>Parent's First Name</Label>
-      <Input id='parents_first_name' type='text' name='parents_first_name' />
+      <Label htmlFor='parents_first_name'>Parent's First Name *</Label>
+      <Input
+        id='parents_first_name'
+        type='text'
+        name='parents_first_name'
+        style={{ marginBottom: '2em' }}
+        required
+      />
 
-      <Label htmlFor='parents_last_name'>Parent's Last Name</Label>
-      <Input id='parents_last_name' type='text' name='parents_last_name' />
+      <Label htmlFor='parents_last_name'>Parent's Last Name *</Label>
+      <Input
+        id='parents_last_name'
+        type='text'
+        name='parents_last_name'
+        style={{ marginBottom: '2em' }}
+        required
+      />
 
-      <Label htmlFor='parents_phone_number'>Parent's Phone Number</Label>
-      <Input id='parents_phone_number' type='tel' name='parents_phone_number' />
+      <Label htmlFor='parents_phone_number'>Parent's Phone Number *</Label>
+      <Input
+        id='parents_phone_number'
+        type='tel'
+        name='parents_phone_number'
+        style={{ marginBottom: '2em' }}
+        required
+      />
 
-      <Label htmlFor='parents_email'>Parent's Email</Label>
-      <Input id='parents_email' type='email' name='parents_email' />
+      <Label htmlFor='parents_email'>Parent's Email *</Label>
+      <Input
+        id='parents_email'
+        type='email'
+        name='parents_email'
+        style={{ marginBottom: '2em' }}
+        required
+      />
       <ValidationError
         prefix='Email'
         field='parents_email'
@@ -88,9 +164,14 @@ export default function JamCampSignupForm() {
       />
 
       <Label htmlFor='lunch_option'>Lunch Option? (+$35)</Label>
-      <select id='lunch_option' name='lunch_option'>
+      <select
+        id='lunch_option'
+        name='lunch_option'
+        style={{ marginBottom: '2em' }}
+      >
         <option value='yes'>Yes</option>
         <option value='no'>No</option>
+        <option value='unsure'>Unsure</option>
       </select>
 
       <Label htmlFor='food_issues'>Any Food Issues to be Aware of?</Label>

@@ -106,7 +106,7 @@ class NavbarThree extends Component {
                     className='nav-link'
                     href='/'
                   >
-                    Home
+                    About Rockstars La Verne
                   </a>
                 </li>
                 <li className='nav-item'>
