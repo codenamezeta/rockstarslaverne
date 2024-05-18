@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import Link from 'next/link'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import SeoSection from './SeoSection'
-import logo from '../images/zeta/logo.svg'
+import logo from '../public/images/zeta/logo.svg'
 import Image from 'next/image'
 
 class NavbarThree extends Component {

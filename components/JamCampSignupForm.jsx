@@ -48,10 +48,6 @@ export default function JamCampSignupForm() {
   return (
     <Form onSubmit={handleSubmit}>
       <h2>Registration</h2>
-      {/* <p>
-        Use the form below to register for summer JamCamp. Please choose one
-        session and one student at a time.
-      </p> */}
       <Label htmlFor='students_first_name'>Choose a Session *</Label>
       <select
         id='students_first_name'

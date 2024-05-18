@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Link from 'next/link'
 import SeoSection from './SeoSection'
-import logo from '../images/zeta/logo.svg'
+import logo from '../public/images/zeta/logo.svg'
 import Image from 'next/image'
 
 class NavbarThree extends Component {
@@ -26,30 +26,7 @@ class NavbarThree extends Component {
       }
     })
     window.scrollTo(0, 0)
-
-    // this.menuActiveClass()
   }
-
-  // menuActiveClass = () => {
-  //   let mainNavLinks = document.querySelectorAll('nav ul li a')
-  //   window.addEventListener('scroll', () => {
-  //     let fromTop = window.scrollY
-  //     mainNavLinks.forEach((link) => {
-  //       if (link.hash) {
-  //         let section = document.querySelector(link.hash)
-
-  //         if (
-  //           section.offsetTop <= fromTop &&
-  //           section.offsetTop + section.offsetHeight > fromTop
-  //         ) {
-  //           link.classList.add('active')
-  //         } else {
-  //           link.classList.remove('active')
-  //         }
-  //       }
-  //     })
-  //   })
-  // }
 
   render() {
     const { collapsed } = this.state

@@ -243,7 +243,7 @@ p:last-child {
 
 .pricing-area {
   padding-bottom: 1200px;
-  background-image: url("../../images/zeta/guitar-girl.jpg");
+  background-image: url("../../public/images/zeta/guitar-girl.jpg");
   background-position: center bottom;
   /* Center the image */
   background-repeat: no-repeat;
@@ -293,7 +293,7 @@ p:last-child {
 }
 
 .contact-area {
-  background-image: url("../../images/zeta/guitar-kid-2.jpg");
+  background-image: url("../../public/images/zeta/guitar-kid-2.jpg");
   background-position: left bottom;
   /* Center the image */
   background-repeat: no-repeat;
@@ -402,7 +402,7 @@ Navbar CSS
   transition: 0.5s;
   opacity: 0;
   visibility: hidden;
-  background: url(../../images/color-bar.png);
+  background: url(../../public/images/color-bar.png);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -496,7 +496,7 @@ Main Banner CSS
   height: 100vh;
   position: relative;
   z-index: 1;
-  background-image: url(../../images/agency-main-bg.jpg);
+  background-image: url(../../public/images/agency-main-bg.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -676,7 +676,7 @@ Main Banner CSS
   height: 850px;
   position: relative;
   z-index: 1;
-  background-image: url(../../images/zeta/band-room.jpg);
+  background-image: url(../../public/images/zeta/band-room.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -693,7 +693,7 @@ Main Banner CSS
   opacity: 0.88;
 }
 /* #jamcamp {
-  background-image: url(../../images/zeta/guitar-girl.jpg);
+  background-image: url(../../public/images/zeta/guitar-girl.jpg);
 } */
 
 .app-banner-image {
@@ -1205,7 +1205,7 @@ How Its Work CSS
   content: "";
   position: absolute;
   z-index: 1;
-  background: url(../../images/arrow-big.png) no-repeat center center;
+  background: url(../../public/images/arrow-big.png) no-repeat center center;
   width: 217px;
   height: 210px;
   top: -50px;
@@ -1645,7 +1645,7 @@ Skill CSS
 .skill-image {
   width: 100%;
   height: 100%;
-  background-image: url(../../images/skill-bg.jpg);
+  background-image: url(../../public/images/skill-bg.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1912,7 +1912,7 @@ CTA CSS
 .cta-area {
   position: relative;
   z-index: 1;
-  background-image: url(../../images/cta-bg.jpg);
+  background-image: url(../../public/images/cta-bg.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -2147,7 +2147,7 @@ CTA CSS
 .cta-area-four {
   position: relative;
   z-index: 1;
-  background-image: url(../../images/cta-bg.jpg);
+  background-image: url(../../public/images/cta-bg.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -2334,7 +2334,7 @@ Funfacts CSS
 .payment-processing-funfacts {
   position: relative;
   z-index: 1;
-  background-image: url(../../images/cta-bg.jpg);
+  background-image: url(../../public/images/cta-bg.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -2485,7 +2485,7 @@ Feedback CSS
   z-index: 1;
 }
 .testimonial-area.bg-image {
-  background-image: url(../../images/bg.jpg);
+  background-image: url(../../public/images/bg.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -2712,7 +2712,7 @@ FAQ CSS
 .faq-image {
   width: 100%;
   height: 100%;
-  background-image: url(../../images/faq-bg.jpg);
+  background-image: url(../../public/images/faq-bg.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -3513,7 +3513,7 @@ Page Title CSS
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url(../../images/agency-main-bg.jpg);
+  background-image: url(../../public/images/agency-main-bg.jpg);
   position: relative;
   z-index: 1;
   text-align: center;
@@ -4053,7 +4053,7 @@ Login CSS
   height: 100vh;
   position: relative;
   z-index: 1;
-  background-image: url(../../images/agency-main-bg.jpg);
+  background-image: url(../../public/images/agency-main-bg.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -4124,7 +4124,7 @@ Signup CSS
   height: 100vh;
   position: relative;
   z-index: 1;
-  background-image: url(../../images/agency-main-bg.jpg);
+  background-image: url(../../public/images/agency-main-bg.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -4192,7 +4192,7 @@ Coming Soon CSS
   z-index: 1;
   height: 100vh;
   text-align: center;
-  background-image: url(../../images/agency-main-bg.jpg);
+  background-image: url(../../public/images/agency-main-bg.jpg);
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
