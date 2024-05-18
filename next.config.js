@@ -1,5 +1,4 @@
 module.exports = {
-  images: {
-    unoptimized: true,
-  },
+  BasePath: '/nextjs',
+  assetPrefix: '/nextjs/',
 }
