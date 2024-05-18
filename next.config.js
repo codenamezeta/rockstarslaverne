@@ -1,4 +1,6 @@
 module.exports = {
-  BasePath: '/nextjs',
-  assetPrefix: '/nextjs/',
+  images: {
+    unoptimized: true,
+  },
+  output: 'standalone',
 }
