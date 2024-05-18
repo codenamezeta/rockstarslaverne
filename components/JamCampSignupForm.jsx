@@ -48,11 +48,11 @@ export default function JamCampSignupForm() {
   return (
     <Form onSubmit={handleSubmit}>
       <h2>Registration</h2>
-      <Label htmlFor='students_first_name'>Choose a Session *</Label>
+      <Label htmlFor='session'>Please choose a Summer Camp Session *</Label>
       <select
-        id='students_first_name'
+        id='session'
         type='text'
-        name='students_first_name'
+        name='session'
         style={{ marginBottom: '2em' }}
         required
       >
