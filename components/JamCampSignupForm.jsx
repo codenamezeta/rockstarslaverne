@@ -92,9 +92,10 @@ export default function JamCampSignupForm() {
       />
 
       <Label htmlFor='instruments'>
-        Instruments Preferred
+        Instruments Preferred *
         <small style={{ fontSize: '0.75em' }}>
           {' '}
+          <br />
           cntl/cmd click to select multiple
         </small>
       </Label>
@@ -103,12 +104,14 @@ export default function JamCampSignupForm() {
         name='instruments'
         multiple
         style={{ marginBottom: '2em' }}
+        required
       >
         <option value='guitar'>Guitar</option>
         <option value='bass'>Bass</option>
         <option value='drums'>Drums</option>
         <option value='piano'>Piano</option>
         <option value='vocals'>Vocals</option>
+        <option value='other'>Unsure / no preference</option>
       </select>
 
       <Label htmlFor='previous_experience'>Previous Experience</Label>
@@ -117,6 +120,20 @@ export default function JamCampSignupForm() {
         name='previous_experience'
         style={{ marginBottom: '2em' }}
       />
+
+      <Label htmlFor='lunch_option'>Lunch Option? (+$35)</Label>
+      <select
+        id='lunch_option'
+        name='lunch_option'
+        style={{ marginBottom: '2em' }}
+      >
+        <option value='yes'>Yes</option>
+        <option value='no'>No</option>
+        <option value='unsure'>Unsure</option>
+      </select>
+
+      <Label htmlFor='food_issues'>Any Food Issues to be Aware of?</Label>
+      <TextArea id='food_issues' name='food_issues' />
 
       <Label htmlFor='parents_first_name'>Parent's First Name *</Label>
       <Input
@@ -159,19 +176,14 @@ export default function JamCampSignupForm() {
         errors={state.errors}
       />
 
-      <Label htmlFor='lunch_option'>Lunch Option? (+$35)</Label>
-      <select
-        id='lunch_option'
-        name='lunch_option'
+      <Label htmlFor='how_did_you_hear_about_us'>
+        How did you hear about us?
+      </Label>
+      <TextArea
+        id='how_did_you_hear_about_us'
+        name='how_did_you_hear_about_us'
         style={{ marginBottom: '2em' }}
-      >
-        <option value='yes'>Yes</option>
-        <option value='no'>No</option>
-        <option value='unsure'>Unsure</option>
-      </select>
-
-      <Label htmlFor='food_issues'>Any Food Issues to be Aware of?</Label>
-      <TextArea id='food_issues' name='food_issues' />
+      />
 
       <Button type='submit' disabled={state.submitting}>
         Submit
