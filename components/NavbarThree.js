@@ -130,11 +130,11 @@ class NavbarThree extends Component {
                     Portal
                   </AnchorLink>
                 </li> */}
-                <li>
+                {/* <li>
                   <Link href='/summer-camp' className='navbar-brand'>
                     JamCamp
                   </Link>
-                </li>
+                </li> */}
                 {/* <li className='nav-item'>
                   <AnchorLink
                     onClick={this.toggleNavbar}
